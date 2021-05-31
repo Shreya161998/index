@@ -1,0 +1,50 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url('banner1.png');
+    margin-top: 55px;
+    height: 460px;
+}
+
+#nav-bar{
+position:sticky;
+top: 0;
+z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#64c964,#4647a3);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none;
+}
+
